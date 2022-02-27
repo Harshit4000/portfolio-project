@@ -1,0 +1,275 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    
+    background-color: darkkhaki;
+    
+    font-family: 'Fira Sans',sans-serif;
+    height: 140vh;
+    transition: tranform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 20px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 25px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+
+    color: rgba(0, 0, 0, 0.753);
+
+}
+.main{
+
+    width: 100vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+   
+    height: 70vh;
+    width: 80vw;
+    margin: 80px 0 0 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    
+    height: 25vh;
+    margin-right: 50px;
+    
+     
+    
+}
+.devinfo{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    font-family: 'Source Code Pro',monospace;
+    padding-left: 50px;
+}
+.hellow{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.name{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Fira Sans',sans-serif;
+
+}
+.about{
+    font-size: 30px;
+}
+.buttons{
+    margin-top: 80px;
+}
+/* .buttons button{ */
+   
+    /* padding: 9px 14px ;
+    border-radius: 22px;
+    color: white;
+    background-color: deepskyblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 3px;
+    cursor: pointer; */
+
+
+/* } */
+.btn{
+    padding: 9px 14px ;
+    border-radius: 22px;
+    color: white;
+    background-color: deepskyblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 17px 2px;
+    cursor: pointer;
+    
+
+
+}
+.btn:hover{
+    background-color: cyan;
+    color: aliceblue;
+    
+}
+.moreabout{
+    margin-top:20px ;
+    font-size: 20px;
+    font-family: 'Fira Sans',sans-serif;
+}
+.contactform {
+    padding-top: 144px;
+    padding: 0 34px;
+    font-family: 'Fira Sans',sans-serif;
+    margin: 0 200px;
+
+
+
+}
+.contactform h1{
+    font-family: 'Source Code Pro',monospace;
+    padding: 12px 0;
+    
+
+
+}
+.contactform form div{
+    padding: 6px 0;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 4px 0 0 0;
+    padding: 3px;
+}
+
+
+#emailhelp{
+    font-size: 1px;
+    color: darkcyan;
+    margin: 0 5px;
+}
+#form-check{
+   flex-direction: row; 
+}
+#form-check input{
+    width: 24px;
+    margin: 2px 0 0 ;
+}
+.blogitem{
+    margin:10px 0 0 200px;
+    font-family: 'Fira Sans',sans-serif;
+
+     
+}
+
+ .blogitem p{
+    font-family: 'Source Code Pro',monospace;
+    
+
+}
+ .blogcontainer h1{
+    font-family: 'Fira Sans',sans-serif;
+    margin: 25px 20px 20px 600px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    text-decoration: underline;
+    
+
+    
+
+
+}
+.mecontainer h1{
+    font-family: 'Fira Sans',sans-serif;
+
+justify-content: center;
+display: flex;
+flex-direction: column;
+margin: 12px 0 0 0;
+}
+.mecontainer{
+    margin: 50px 200px;
+}
+.mecontainer p{
+    font-family: 'Source Code Pro',monospace;
+
+}
+ .skill{
+     width:260px;
+     height: 6px;
+     background-color: brown;
+     border: 2px solid black;
+ }
+ .Skillcontainer{
+     padding: 12px;
+ }
+ .skillitem{
+     align-items: center;
+     display: flex;
+ }
+ .t2{
+     width: 240px;
+     background-color: brown;
+ }
+ .t3{
+     width: 150px;
+     background-color: forestgreen;
+ }
+ .t4{
+     width:50px;
+     background-color: orchid;
+ }
+ 
+     
+     
+     .hamburger{
+         position: absolute;
+         cursor: pointer;
+         top: 10px;
+         left: 10px;
+     }
+     .ham{
+        margin-left: 8px;
+        margin-top: 5px;
+      }
+      .cross{
+        margin-left:140px;
+        margin-top: 5x;
+      }
+      .sidebarGo{
+        transform: translate(-435px,0px);
+        position: absolute;
+         
+      }
+      .blogcontainer{
+          margin: 69px 88px;
+      }
+
+ 
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
